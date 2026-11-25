@@ -57,6 +57,10 @@ hr {
     color: #ffffff;
 }
 
+.markdown-body > h1:first-child:has(> a) {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .markdown-body {
         margin: 16px;
