@@ -1,0 +1,65 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+:root {
+    color-scheme: dark;
+}
+
+body {
+    background: #121217;
+    color: #d4d4df;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.markdown-body {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    background: #1b1b23;
+    border: 1px solid #30303c;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    color: #b49aff;
+    border-color: #343440 !important;
+}
+
+h1 {
+    color: #70e5a1;
+}
+
+a {
+    color: #70e5a1;
+}
+
+a:hover {
+    color: #b49aff;
+}
+
+strong {
+    color: #f1f1f7;
+}
+
+hr {
+    background-color: #343440 !important;
+    height: 1px !important;
+    border: 0;
+}
+
+::selection {
+    background: #7954c7;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .markdown-body {
+        margin: 16px;
+        padding: 24px;
+    }
+}
