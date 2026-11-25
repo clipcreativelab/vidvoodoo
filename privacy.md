@@ -1,4 +1,4 @@
-# VidVoodoo - Privacy Policy
+# Privacy Policy
 
 **Developer:** Clip Creative Lab  
 **Last updated:** November 24, 2026
@@ -41,7 +41,7 @@ Questions regarding this privacy policy may be submitted through the official [V
 
 ---
 
-# VidVoodoo - Política de privacidad
+# Política de privacidad
 
 **Desarrollador:** Clip Creative Lab  
 **Última actualización:** 24 de noviembre de 2026
