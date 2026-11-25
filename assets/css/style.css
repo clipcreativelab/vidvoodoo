@@ -1,10 +1,9 @@
-@import "{{ site.theme }}";
-
 :root {
     color-scheme: dark;
 }
 
 body {
+    margin: 0;
     background: #121217;
     color: #d4d4df;
     font-family: "Segoe UI", sans-serif;
@@ -22,21 +21,24 @@ body {
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4 {
-    color: #b49aff;
-    border-color: #343440 !important;
-}
-
 h1 {
     color: #70e5a1;
+    border-bottom: 1px solid #343440;
+    padding-bottom: 12px;
+}
+
+h2, h3, h4 {
+    color: #b49aff;
 }
 
 a {
     color: #70e5a1;
+    text-decoration: none;
 }
 
 a:hover {
     color: #b49aff;
+    text-decoration: underline;
 }
 
 strong {
@@ -44,9 +46,10 @@ strong {
 }
 
 hr {
-    background-color: #343440 !important;
-    height: 1px !important;
     border: 0;
+    height: 1px;
+    background: #343440;
+    margin: 32px 0;
 }
 
 ::selection {
